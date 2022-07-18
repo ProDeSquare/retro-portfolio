@@ -79,6 +79,10 @@ code {
     margin-top: 1.5rem;
 }
 
+.main-section {
+    overflow-x: auto;
+}
+
 /* header */
 
 header {
