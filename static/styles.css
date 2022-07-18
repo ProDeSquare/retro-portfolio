@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap');
 
 :root {
     --dark-black: #1d2021;
@@ -64,6 +64,19 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     line-height: 1.5rem;
+    font-weight: 500;
+}
+
+code {
+    background-color: var(--dark-black);
+    font-size: 1rem;
+    color: var(--bright-black)
+}
+
+.main-section + .main-section {
+    border-top: 1px solid var(--dark-black);
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 /* header */
