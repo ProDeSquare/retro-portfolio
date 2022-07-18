@@ -131,3 +131,26 @@ footer {
         flex-direction: column;
     }
 }
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.3rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--gray);
+    border-radius: 0.15rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--bright-gray);
+  }
