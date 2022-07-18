@@ -110,7 +110,7 @@ main {
 #main {
     background-color: var(--black);
     color: var(--white);
-    flex-grow: 0.7;
+    flex-grow: 1;
     padding: 1rem;
 }
 
@@ -129,16 +129,5 @@ footer {
 @media screen and (max-width: 768px) {
     main {
         flex-direction: column;
-    }
-
-    #main {
-        background-color: var(--black);
-        flex-grow: 0.7;
-        padding: 1rem;
-    }
-
-    #aside {
-        flex-grow: 0.3;
-        padding: 1rem;
     }
 }
