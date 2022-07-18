@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=swap');
 
 :root {
     --dark-black: #1d2021;
@@ -35,7 +35,22 @@ body, html {
     font-family: 'Fira mono', monospace;
     max-width: 1100px;
     margin: 0 auto;
-    font-weight: 500;
-    background-color: var(--black);
+    background-color: var(--dark-black);
     color: var(--white);
+}
+
+header {
+    padding: 1rem;
+}
+
+#logo {
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: var(--green);
+    color: var(--black);
+    text-decoration: none;
+}
+
+#logo:hover {
+    background-color: var(--bright-green);
 }
